@@ -1,7 +1,7 @@
 class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!");
-    Matrice m = new Matrice("TPSIT");
+    Matrice m = new Matrice("TPSIT");    //prova
     Vigenere v = new Vigenere(0,12,0,12,m);
     Thread t = new Thread(v);
     t.start();
